@@ -1,7 +1,7 @@
 #ifdef testPolynom
     #include "../../../headers/primitiveLibs/polynom.h"
 #else
-    #include "SistemasdeControle/headers/primitiveLibs/polynom.h"
+    #include "framework/headers/primitiveLibs/polynom.h"
 #endif
 
 template <typename Type> // testada

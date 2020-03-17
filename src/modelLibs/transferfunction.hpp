@@ -2,8 +2,8 @@
     #include "../../../headers/modelLibs/transferfunction.h"
     #include "../../../headers/modelLibs/conversions.h"
 #else
-    #include "SistemasdeControle/headers/modelLibs/transferfunction.h"
-    #include "SistemasdeControle/headers/modelLibs/conversions.h"
+    #include "framework/headers/modelLibs/transferfunction.h"
+    #include "framework/headers/modelLibs/conversions.h"
 #endif
 
 template <typename Type>

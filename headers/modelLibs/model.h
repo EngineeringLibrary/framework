@@ -6,9 +6,9 @@
     #include "../../../headers/primitiveLibs/LinAlg/linalg.h"
     #include "../../../headers/primitiveLibs/polynom.h"
 #else
-    #include "SistemasdeControle/headers/primitiveLibs/LinAlg/matrix.h"
-    #include "SistemasdeControle/headers/primitiveLibs/LinAlg/linalg.h"
-    #include "SistemasdeControle/headers/primitiveLibs/polynom.h"
+    #include "framework/headers/primitiveLibs/LinAlg/matrix.h"
+    #include "framework/headers/primitiveLibs/LinAlg/linalg.h"
+    #include "framework/headers/primitiveLibs/polynom.h"
 #endif
 
 
@@ -89,7 +89,7 @@ namespace ModelHandler {
 #ifdef testModel
     #include "../../../src/modelLibs/model.hpp"
 #else
-    #include "SistemasdeControle/src/modelLibs/model.hpp"
+    #include "framework/src/modelLibs/model.hpp"
 #endif
 
 #endif // MODEL_H

@@ -4,8 +4,10 @@
 #include <cmath>
 #ifdef testControl
     #include "../../../headers/modelLibs/transferfunction.h"
+    #include "generalcontroller.h"
 #else
-    #include "SistemasdeControle/headers/modelLibs/transferfunction.h"
+    #include "framework/headers/modelLibs/transferfunction.h"
+    #include "generalcontroller.h"
 #endif
 
 namespace ControlHandler{
@@ -52,7 +54,7 @@ namespace ControlHandler{
 #ifdef testControl
     #include "../../../src/controlLibs/pid.hpp"
 #else
-    #include "SistemasdeControle/src/controlLibs/pid.hpp"
+    #include "framework/src/controlLibs/pid.hpp"
 #endif
 
 #endif // PID_H

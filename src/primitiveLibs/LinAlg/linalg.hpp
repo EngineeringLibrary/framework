@@ -4,7 +4,7 @@
     #ifdef testPolynom
         #include "../../../headers/primitiveLibs/LinAlg/linalg.h"
     #else
-        #include "SistemasdeControle/headers/primitiveLibs/LinAlg/linalg.h"
+        #include "framework/headers/primitiveLibs/LinAlg/linalg.h"
     #endif
 #endif
 

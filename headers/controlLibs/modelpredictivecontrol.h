@@ -10,13 +10,13 @@
 //    #include "../../../headers/modelLibs/predictionmodel.h"
     #include "../../../headers/restrictedOptimization/recursiveactiveset.h"
 #else
-    #include "SistemasdeControle/headers/restrictedOptimization/activeset.h"
-    #include "SistemasdeControle/headers/modelLibs/model.h"
-    #include "SistemasdeControle/headers/modelLibs/statespace.h"
-    #include "SistemasdeControle/headers/modelLibs/conversions.h"
-//    #include "SistemasdeControle/headers/modelLibs/integrativemodel.h"
-//    #include "SistemasdeControle/headers/modelLibs/predictionmodel.h"
-    #include "SistemasdeControle/headers/restrictedOptimization/recursiveactiveset.h"
+    #include "framework/headers/restrictedOptimization/activeset.h"
+    #include "framework/headers/modelLibs/model.h"
+    #include "framework/headers/modelLibs/statespace.h"
+    #include "framework/headers/modelLibs/conversions.h"
+//    #include "framework/headers/modelLibs/integrativemodel.h"
+//    #include "framework/headers/modelLibs/predictionmodel.h"
+    #include "framework/headers/restrictedOptimization/recursiveactiveset.h"
 #endif
 
 

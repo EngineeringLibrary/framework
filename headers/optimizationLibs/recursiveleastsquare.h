@@ -25,7 +25,7 @@ namespace OptimizationHandler {
 #ifdef testModel
     #include "../../../src/optimizationLibs/recursiveleastsquare.hpp"
 #else
-    #include "SistemasdeControle/src/optimizationLibs/recursiveleastsquare.hpp"
+    #include "framework/src/optimizationLibs/recursiveleastsquare.hpp"
 #endif
 
 #endif // RECURSIVELEASTSQUARE_H

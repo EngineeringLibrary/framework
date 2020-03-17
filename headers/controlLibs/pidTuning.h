@@ -5,7 +5,7 @@
 #ifdef testControl
     #include "../../../headers/controlLibs/pid.h"
 #else
-    #include "SistemasdeControle/headers/controlLibs/pid.h"
+    #include "framework/headers/controlLibs/pid.h"
 #endif
 
 namespace ControlHandler{
@@ -38,7 +38,7 @@ namespace ControlHandler{
 #ifdef testControl
     #include "../../../src/controlLibs/pidTuning.hpp"
 #else
-    #include "SistemasdeControle/src/controlLibs/pidTuning.hpp"
+    #include "framework/src/controlLibs/pidTuning.hpp"
 #endif
 
 #endif // PIDTUNNING_H

@@ -140,7 +140,7 @@ namespace ModelHandler {
 #ifdef testModel
     #include "../../../src/modelLibs/transferfunction.hpp"
 #else
-    #include "SistemasdeControle/src/modelLibs/transferfunction.hpp"
+    #include "framework/src/modelLibs/transferfunction.hpp"
 #endif
 
 #endif // TRANSFERFUNCTION_H

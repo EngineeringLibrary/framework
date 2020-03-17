@@ -1,7 +1,7 @@
 #ifdef testControl
     #include "../../../headers/controlLibs/modelpredictivecontrol.h"
 #else
-    #include "SistemasdeControle/headers/controlLibs/modelpredictivecontrol.h"
+    #include "framework/headers/controlLibs/modelpredictivecontrol.h"
 #endif
 
 //#include "../../../headers/modelLibs/conversions.h"

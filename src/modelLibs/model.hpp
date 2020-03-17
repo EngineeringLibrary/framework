@@ -1,7 +1,7 @@
 #ifdef testModel
     #include "../../../headers/modelLibs/model.h"
 #else
-    #include "SistemasdeControle/headers/modelLibs/model.h"
+    #include "framework/headers/modelLibs/model.h"
 #endif
 
 

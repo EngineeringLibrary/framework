@@ -1,7 +1,7 @@
 #ifdef testModel
     #include "../../../headers/modelLibs/statespace.h"
 #else
-    #include "SistemasdeControle/headers/modelLibs/statespace.h"
+    #include "framework/headers/modelLibs/statespace.h"
 #endif
 
 template <typename Type>

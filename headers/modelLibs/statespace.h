@@ -4,8 +4,8 @@
     #include "../../../headers/modelLibs/model.h"
     #include "../../../headers/primitiveLibs/primitives.h"
 #else
-    #include "SistemasdeControle/headers/modelLibs/model.h"
-    #include "SistemasdeControle/headers/primitiveLibs/primitives.h"
+    #include "framework/headers/modelLibs/model.h"
+    #include "framework/headers/primitiveLibs/primitives.h"
 #endif
 
 namespace ModelHandler {
@@ -106,7 +106,7 @@ namespace ModelHandler {
 #ifdef testModel
     #include "../../../src/modelLibs/statespace.hpp"
 #else
-    #include "SistemasdeControle/src/modelLibs/statespace.hpp"
+    #include "framework/src/modelLibs/statespace.hpp"
 #endif
 
 #endif // STATESPACE_H

@@ -1,7 +1,7 @@
 #ifdef testModel
     #include "../../../headers/modelLibs/arx.h"
 #else
-    #include "SistemasdeControle/headers/modelLibs/arx.h"
+    #include "framework/headers/modelLibs/arx.h"
 #endif
 
 template <typename Type>

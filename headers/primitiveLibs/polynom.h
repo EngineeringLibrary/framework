@@ -165,7 +165,7 @@ namespace PolynomHandler {
     #ifdef testPolynom
         #include "../../../src/primitiveLibs/polynom.hpp"
     #else
-        #include "SistemasdeControle/src/primitiveLibs/polynom.hpp"
+        #include "framework/src/primitiveLibs/polynom.hpp"
     #endif
 #endif
 

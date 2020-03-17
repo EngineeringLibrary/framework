@@ -3,7 +3,7 @@
 #ifdef testModel
     #include "../../../headers/modelLibs/model.h"
 #else
-    #include "SistemasdeControle/headers/modelLibs/model.h"
+    #include "framework/headers/modelLibs/model.h"
 #endif
 
 namespace ModelHandler {
@@ -65,7 +65,7 @@ namespace ModelHandler {
 #ifdef testModel
     #include "../../../src/modelLibs/arx.hpp"
 #else
-    #include "SistemasdeControle/src/modelLibs/arx.hpp"
+    #include "framework/src/modelLibs/arx.hpp"
 #endif
 
 #endif // ARX_H

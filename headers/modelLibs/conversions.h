@@ -50,7 +50,7 @@ namespace ModelHandler{
 #ifdef testModel
     #include "../../../src/modelLibs/conversions.hpp"
 #else
-    #include "SistemasdeControle/src/modelLibs/conversions.hpp"
+    #include "framework/src/modelLibs/conversions.hpp"
 #endif
 
 #endif // CONVERSIONS_H

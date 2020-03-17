@@ -1,7 +1,7 @@
 #ifdef testModel
     #include "../../../headers/optimizationLibs/recursiveleastsquare.h"
 #else
-    #include "SistemasdeControle/headers/optimizationLibs/recursiveleastsquare.h"
+    #include "framework/headers/optimizationLibs/recursiveleastsquare.h"
 #endif
 
 template <class Type>

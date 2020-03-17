@@ -274,7 +274,7 @@ namespace LinAlg {
         #ifdef testPolynom
             #include "../../../src/primitiveLibs/LinAlg/matrix.hpp"
         #else
-            #include "SistemasdeControle/src/primitiveLibs/LinAlg/matrix.hpp"
+            #include "framework/src/primitiveLibs/LinAlg/matrix.hpp"
         #endif
     #endif
 

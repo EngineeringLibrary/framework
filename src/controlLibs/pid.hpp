@@ -1,7 +1,7 @@
 #ifdef testControl
     #include "../../../headers/controlLibs/pid.h"
 #else
-    #include "SistemasdeControle/headers/controlLibs/pid.h"
+    #include "framework/headers/controlLibs/pid.h"
 #endif
 
 template<typename Type>

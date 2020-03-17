@@ -5,8 +5,8 @@
     #include "../../../headers/modelLibs/model.h"
     #include "../../../headers/modelLibs/arx.h"
 #else
-    #include "SistemasdeControle/headers/modelLibs/model.h"
-    #include "SistemasdeControle/headers/modelLibs/arx.h"
+    #include "framework/headers/modelLibs/model.h"
+    #include "framework/headers/modelLibs/arx.h"
 #endif
 
 //Biblioteca incompleta, ainda nao funcional.
@@ -29,7 +29,7 @@ namespace OptimizationHandler {
 #ifdef testModel
     #include "../../../src/optimizationLibs/optimization.hpp"
 #else
-    #include "SistemasdeControle/src/optimizationLibs/optimization.hpp"
+    #include "framework/src/optimizationLibs/optimization.hpp"
 #endif
 
 #endif // OPTIMIZATION_H

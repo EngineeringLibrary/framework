@@ -76,7 +76,7 @@ namespace LinAlg {
     #ifdef testPolynom
         #include "../../../src/primitiveLibs/LinAlg/linalg.hpp"
     #else
-        #include "SistemasdeControle/src/primitiveLibs/LinAlg/linalg.hpp"
+        #include "framework/src/primitiveLibs/LinAlg/linalg.hpp"
     #endif
 #endif
 
